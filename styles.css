@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.full {
+    background-color: darkblue;
+    height: 100vh;
+    position: relative;
+}
+
+.a1 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: goldenrod;
+    font-size: 3.3em;
+    text-align: center;
+}
+
+.cont img,
+.cont2 img,
+.cont3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cont2 {
+    position: relative;
+}
+
+.cont3 img {
+    position: absolute;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.ty {
+    position: relative;
+    background-color: gray;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ty p {
+    margin: 0;
+}
